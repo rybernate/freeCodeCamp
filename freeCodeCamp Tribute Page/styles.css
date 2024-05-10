@@ -1,12 +1,6 @@
 /* CSS for rybernate's Solution to Build a Tribute Page (freeCodeCamp) */
-html{
+body{
   background-color: #000000;
-}
-main{
-  max-width: 100%;
-  min-width: 500px;
-  display: block;
-  height: 100%;
   background-image: linear-gradient(
     to bottom,
     rgb(0 0 0 / 0%),
@@ -15,6 +9,12 @@ main{
   ),url(https://wallpapercave.com/wp/wp3007454.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+main{
+  max-width: 100%;
+  min-width: 500px;
+  display: block;
+  height: 100%;
   margin: 0 0 0 0;
 }
 h1{
@@ -46,19 +46,21 @@ img{
   margin: auto;
   width: 100%;
   padding: 5px 0 20px 0;
+  font-family:'Times New Roman', Times, serif;
 }
 #tribute-info{
   display: block;
   margin: 20px 0 0 0;
+  font-family:'Times New Roman', Times, serif;
   font-size: 20px;
-  color: #ff1100;
+  color: #943e37;
   width: 80%;
   margin: auto;
   min-width: 500px;
 }
 .bold{
   font-weight: bold;
-  color: #ffffff;
+  color: #b4b4b4;
   text-decoration: underline;
 }
 #tribute-link{
@@ -66,12 +68,14 @@ img{
   margin: auto;
   text-align: center;
   font-family: serif;
-  color: #ffffff;
+  color: #b4b4b4;
   font-weight: bold;
   font-size: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+  text-decoration: none;
 }
-a{
+#tribute-link:hover{
   color: #ffffff;
+  text-decoration: underline;
 }
