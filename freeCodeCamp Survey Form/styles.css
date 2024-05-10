@@ -1,0 +1,109 @@
+/* CSS for rybernate's Solution to Build a Survey Form (freeCodeCamp) */
+body{
+  background-color:#000000;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+h1{
+  font-family: Baskerville;
+  color: #ffffff;
+  font-size: 42px;
+  text-align: center;
+  padding: 20 0 0 0px;
+  margin: 0 0 -20px 0;
+  width: 100%;
+  min-width: 300px;
+}
+p{
+  font-family: Baskerville;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  width: 100%;
+  min-width: 300px;
+}
+section{
+  color: #ae8500;
+  margin: 0px;
+  padding: 0px 0px 0px 20px;
+  width: 50%;
+  min-width: 300px;
+}
+label, input, select, button{
+  display: block;
+  width: 70%;
+  min-width: 300px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+input,select{
+  font-size: 16px;
+  max-width: 535px;
+}
+label{
+  padding: 18px 0px 10px 0px;
+}
+input#ownership{
+  display: inline-block;
+  margin: 0;
+  width: 30px;
+  min-width: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+}
+input#dog-size{
+  display: inline-block;
+  margin: 0;
+  width: 30px;
+  min-width: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+  position: relative;
+}
+.form{
+  width: 100%;
+  min-width: 720px;
+  height: 100%;  
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+    to left,
+    rgb(0 0 0 / 25%),
+    rgb(0 0 0 / 100%)
+  ), linear-gradient(
+    to bottom,
+    rgb(0 0 0 / 0%),
+    rgb(0 0 0 / 80%),
+    rgb(0 0 0 / 100%)
+  ), url(https://wallpaperaccess.com/full/434966.jpg) ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+textarea{
+  display: block;
+  width: 70%;
+  min-width: 300px;
+  max-width: 535px;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+button{
+  margin: 0 0 0 20px;
+  background-color: #886800;
+  color: #000000;
+  width: 100px;
+}
+.note{
+  display: block;
+  font-size: 14px;
+  color: #886800;
+  }
+  .answer{
+    display: inline;
+    color: #ffffff;
+  }

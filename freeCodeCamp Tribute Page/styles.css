@@ -1,0 +1,77 @@
+/* CSS for rybernate's Solution to Build a Tribute Page (freeCodeCamp) */
+html{
+  background-color: #000000;
+}
+main{
+  max-width: 100%;
+  min-width: 500px;
+  display: block;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0 0 0 / 0%),
+    rgb(0 0 0 / 60%),
+    rgb(0 0 0 / 100%)
+  ),url(https://wallpapercave.com/wp/wp3007454.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 0 0 0;
+}
+h1{
+  text-align: center;
+  font-family: serif;
+  color: #ffffff;
+  font-size: 55px;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px 6px black;
+}
+#image{
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(0.20em 0.20em 0.2em);
+}
+img{
+  display: block;
+  margin: auto;
+}
+#img-div{
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+#img-caption{
+  font-size: 14px;
+  color: #cccccc;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 5px 0 20px 0;
+}
+#tribute-info{
+  display: block;
+  margin: 20px 0 0 0;
+  font-size: 20px;
+  color: #ff1100;
+  width: 80%;
+  margin: auto;
+  min-width: 500px;
+}
+.bold{
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: underline;
+}
+#tribute-link{
+  display:block;
+  margin: auto;
+  text-align: center;
+  font-family: serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+a{
+  color: #ffffff;
+}

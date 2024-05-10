@@ -1,0 +1,122 @@
+/* CSS for rybernate's Solution to Build a Technical Documentation Page (freeCodeCamp) */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  min-width: 320px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e1e1e1;
+  background-image: linear-gradient(
+    to left,
+    rgb(255 255 255 / 85%),
+    rgb(255 255 255 / 98%),
+    rgb(255 255 255 / 100%)
+  ), url(https://img.freepik.com/premium-vector/straight-lines-background_205544-290.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-attachment: fixed;
+}
+
+.h1{
+  padding: 22px 10px 0px 10px;
+  margin-bottom: 21px;
+  font-size: 26px;
+}
+
+.h2{
+  padding: 28px 0 0 0;
+  font-size: 22px;
+}
+#navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 100%;
+  min-width: 320px;
+  border-right: solid;
+  border-color: #cccccc;
+  border-left: solid 20px #5c895c;
+  background-color: #fff;
+}
+
+#main-doc{
+  position: absolute;
+  margin-left: 340px;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding: 0 20px 100px 0;
+  min-width: 260px;
+  max-width: 1400px;
+}
+
+#navbar ul{
+ padding: 0;
+ margin: 0;
+}
+
+#navbar li{
+  position: relative;
+  border-top: 1px solid;
+  border-color: #cccccc;
+  list-style: none;
+  width: 300px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#navbar ul a{
+  color: #000000;
+  text-decoration: none;
+}
+
+#navbar ul a:hover{
+  color: #5c895c;
+}
+
+#navbar li:last-child{
+  border-bottom: 1px solid;
+  border-color: #cccccc;
+}
+
+code{
+  display: block;
+  background-color: #ccddcc;
+  padding: 10px;
+  margin: auto;
+  width: 80%;
+}
+
+@media only screen and (max-width: 480px) {
+body{
+  margin: 0;
+}
+#main-doc {
+    position: static;
+    margin: 0;
+    padding: 0 20px 100px 10px;
+    min-width: 320px;
+    max-width: 480px;
+    border-left: solid 20px #5c895c;
+  }
+#navbar{
+  position: static;
+  width: 100%;
+  height: auto;
+  margin: 0 0 -18px 0;
+  min-width: 300px;
+  border-right: none;
+  border-left: solid 20px #5c895c;
+  background-color: #fff;
+} 
+#navbar li{
+  position: relative;
+  border-top: 1px solid;
+  border-color: #cccccc;
+  list-style: none;
+  width: 100%;
+  padding: 10px;
+}

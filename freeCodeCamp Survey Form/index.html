@@ -1,0 +1,51 @@
+<!--rybernate's Solution to Build a Survey Form (freeCodeCamp) -->
+<!DOCTYPE html>
+<title>Dog Lovers Survey Form</title>
+<meta lang="utf-8"/>
+<link rel="stylesheet" href="styles.css"/>
+<meta title="Dog Lovers Survey Form"/>
+<meta description="Survey for all dog lovers"/>
+<meta lang="en"/>
+<body><div class="form">
+    <h1 id="title">Dog Lovers Survey Form</h1>
+  <p id="description">Tell me all about your love for our canine friends!</p>
+<form id="survey-form">
+<section name="about-you" id="about-you">
+  <label for="name" id="name-label">Name <input name="name" id="name" type="text" placeholder="Enter your name" required/></label>
+  <label for="email" id="email-label">Email <input name="email" id="email" type="email" placeholder="Enter your email" required/></label>
+  <label for="number" id="number-label">Your Age <span class="note">(optional)</span> <input name="age" id="number" type="number" min="5" max="120" placeholder="Age"/></label>
+  <label for="affinity">Which option best describes your affinity for dogs? 
+    <select name="affinity" id="dropdown">
+      <option value="0">Select an option</option>
+      <option value="likes-dogs">I somewhat like dogs</option>
+      <option value="dog-person">I like dogs a lot</option>
+      <option value="loves-dogs">I'm a hardcore dog lover</option>
+    </select>
+  </label>
+</section>
+<section name="feedback" id="feedback">
+    <label name="ownership" for="ownership">Do you own a dog?</br>
+      <div class="answer"><input name="ownership" id="ownership" type="radio" value="Yes" checked/> Yes
+      <input name="ownership" id="ownership" type="radio" value="No"/> No</div></label>
+  <label for="favorite-feature">What is your favorite thing about dogs?
+    <select name="favorite-feature" id="dropdown">
+      <option value="0">Select an option</option>
+      <option value="wags">Wagging tails</option>
+      <option value="kisses">Sloppy kisses</option>
+      <option value="cuddles">Cuddles</option>
+      <option value="walks">Long walks together</option>
+      <option value="everything">Everything!</option>
+    </select></label>
+      <label for="dog-size">What size dogs do you love the most? <div class="note">(Check all that apply)</div><br/>
+    <div class="answer"><input name="dog-size" id="dog-size" type="checkbox" value="small"/> Small dogs (Toy breeds)</br>
+    <input name="dog-size" id="dog-size" type="checkbox" value="medium"/> Medium-sized dogs</br>
+    <input name="dog-size" id="dog-size" type="checkbox" value="large"/> Large dogs</br>
+    <input name="dog-size" id="dog-size" type="checkbox" value="giant"/> Giant dogs</div></label>
+  <label for"comments">Is there anything else you'd like to tell me about your love for dogs?
+    <textarea name="comments" id="comments" rows="5" cols="30" placeholder="Enter your comments here"></textarea></label>
+</section>
+<button id="submit" type="submit">Submit</button>
+</form>
+</div>
+</body>
+</html>
