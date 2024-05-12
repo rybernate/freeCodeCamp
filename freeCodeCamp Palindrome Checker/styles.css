@@ -1,0 +1,67 @@
+/* CSS for rybernate's Solution to Build a Palindrome Checker (freeCodeCamp) */
+:root {
+  --rcolor: #fff;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background-color: #000;
+  color: #fff;
+  font-family: Trebuchet, sans-serif;
+}
+
+.wrapper{
+  width: 100vw;
+  height: 70vh;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.icon{
+  font-size: 3.4rem;
+  color: var(--rcolor);
+}
+
+h1{
+  padding-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+.label-text, #text-input, button{
+  font-size: 1.0rem;
+  margin: 4px;
+}
+
+button{
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+  border-color: #fff;
+  text-shadow: 1px 1px #000;
+  margin: 4px;
+}
+
+#result{
+  display: none;
+  margin-top: 20px;
+  background-color: var(--rcolor);
+  color: #000;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 4px;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding:10px;
+  font-size: 0.8rem;
+  color: var(--rcolor);
+}
