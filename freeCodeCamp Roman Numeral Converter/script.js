@@ -4,7 +4,7 @@ const numberOutput = document.getElementById("output");
 const convertBtn = document.getElementById("convert-btn");
 let convertedNum;
 
-const conversion = (value) => {
+const convert = (value) => {
   const arabicNum = [
     1000,
     900,
@@ -46,7 +46,7 @@ const conversion = (value) => {
   return;
 };
 
-const convertNumber = () => {
+const validateAndConvert = () => {
   const number = numberInput.value;
   if (number === "") {
 
@@ -71,7 +71,7 @@ const convertNumber = () => {
   } 
   else {
 
-    conversion(number);
+    convert(number);
     numberOutput.style.display = "block";
     numberOutput.style.fontSize = "3rem";
     numberOutput.innerText = convertedNum;
@@ -79,10 +79,10 @@ const convertNumber = () => {
   };
 };
 
-convertBtn.addEventListener("click", convertNumber);
+convertBtn.addEventListener("click", validateAndConvert);
 numberInput.addEventListener("keydown", e => {
   if (e.key === "Enter") {
-    convertNumber();
+    validateAndConvert();
 
   }
 });
