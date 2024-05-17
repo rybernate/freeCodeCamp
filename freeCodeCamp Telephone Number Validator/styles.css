@@ -1,0 +1,94 @@
+/* CSS for rybernate's Solution to Build a Telephone Number Validator (freeCodeCamp) */
+root{
+  --iconColor: #000;
+  --iconDisplay: none;
+}
+
+body{
+  color: #fff; 
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  font-size: 1.5rem;
+  background: linear-gradient(135deg, #650ef1 0%, #7e1de2 50%, #650ef1 100%);
+}
+
+h1{
+  text-align: center;
+  font-family: Tahoma, Trebuchet, sans-serif;
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+#wrapper{
+  display: block;
+  background: linear-gradient(90deg, #333 25%, #111 100%);
+  background-color: #000;
+  width: 280;
+  height: 600px;
+  text-align: center;
+  padding: 5px 20px 20px 20px;
+  margin: auto;
+  border-radius: 35px;
+  border: 15px solid black;
+}
+
+#camera {
+  background-color: #333;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+button, input, label{
+  font-family: Trebuchet, sans-serif;
+  font-size: .75em;
+}
+
+input{
+  width: 72%;
+}
+
+
+#results-div{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  padding-top: 50px;
+  font-family: Trebuchet, sans-serif;
+  font-size: 1.1em;
+}
+
+.results-wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+#icon{
+  display: var(--iconDisplay);
+  font-size: 7.5em;
+  color: var(--iconColor);
+  text-shadow: 2px 2px #000;
+  margin-top: 30px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  align-content: center;
+  text-align: center;
+  background-color: #000;
+  margin: 0;
+  font-family: Trebuchet, sans-serif;
+  font-size: .8rem;
+}
