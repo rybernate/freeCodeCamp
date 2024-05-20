@@ -4,7 +4,7 @@ const checkBtn = document.getElementById("check-btn");
 const clearBtn = document.getElementById("clear-btn");
 const results = document.getElementById("results-div");
 const root = document.querySelector(':root');
-const regex = /^(1\s?)?(\([1-9][0-9]{2}\)|[1-9][0-9]{2})[\s\-]?[1-9][0-9]{2}[\s\-]?[0-9]{4}$/g;
+const regex = /^(1\s?)?(\([2-9][0-9]{2}\)|[2-9][0-9]{2})[\s\-]?[2-9][0-9]{2}[\s\-]?[0-9]{4}$/g;
 
 function clearThis() {
  userInput.value = "";
