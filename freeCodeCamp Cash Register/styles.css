@@ -1,0 +1,53 @@
+/* CSS for rybernate's Solution to Build a Cash Register (freeCodeCamp) */
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: auto;
+  align-content: center;
+  text-align: center;
+}
+
+h1 {
+  padding: 10;
+  font-weight: 600;
+}
+
+h3 {
+  padding: 5;
+}
+
+#change-due{
+  display: hidden;
+  margin-top: 10;
+  align-content: center;
+  padding: 5;
+  min-height: 40px;
+  background-color: #fff;
+  font-family: Trebuchet, sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+input {
+  width: 10%;
+  min-width: 50px;
+  max-width: 100px;
+}
+
+footer{
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  align-content: center;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  margin: 0;
+  font-family: Trebuchet, sans-serif;
+  font-size: .8rem;
+}
