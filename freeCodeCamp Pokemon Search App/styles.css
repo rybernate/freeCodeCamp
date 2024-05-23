@@ -21,7 +21,7 @@ body{
   width: 100%;
   text-align: center;
   justify-content: center;
-  min-width: 280;
+  min-width: 280px;
 }
 
 #header{
@@ -30,7 +30,7 @@ body{
   top: 0;
   background-color: red;
   width: 100%;
-  height: 100;
+  height: 100px;
   z-index: 1;
 }
 
@@ -42,8 +42,8 @@ body{
   top: 0;
   left: 0;
   width: 60%;
-  min-width: 300;
-  height: 100;
+  min-width: 300px;
+  height: 100px;
   border-top-left-radius: 50%;
   z-index: 1;
   border-bottom:5px solid darkred;
@@ -58,11 +58,11 @@ body{
     white 0%,
     blue 50%);
   border: 5px double white;
-  box-shadow: rgba(0, 0, 0, 1) 2 2;
+  box-shadow: rgba(0, 0, 0, 1) 2px 2px;
   border-radius: 50%;
-  margin: 5 0 0 5;
-  width: 80;
-  height: 80;
+  margin: 5px 0 0 5px;
+  width: 80px;
+  height: 80px;
   z-index: 2;
 }
 
@@ -74,11 +74,11 @@ body{
     red 0%,
     darkred 50%);
   border: 1px inset black;
-  box-shadow: rgba(0, 0, 0, 0.2) 1 1;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px;
   border-radius: 50%;
-  margin: 10 0 0 10;
-  width: 15;
-  height: 15;
+  margin: 10px 0 0 10px;
+  width: 15px;
+  height: 15px;
   z-index: 2;
 }
 
@@ -90,11 +90,11 @@ body{
     yellow 0%,
     orange 50%);
   border: 1px inset black;
-  box-shadow: rgba(0, 0, 0, 0.2) 1 1;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px;
   border-radius: 50%;
-  margin: 10 0 0 10;
-  width: 15;
-  height: 15;
+  margin: 10px 0 0 10px;
+  width: 15px;
+  height: 15px;
   z-index: 2;
 }
 
@@ -106,15 +106,15 @@ body{
     green 0%,
     darkgreen 50%);
   border: 1px inset black;
-  box-shadow: rgba(0, 0, 0, 0.2) 1 1;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px;
   border-radius: 50%;
-  margin: 10 0 0 10;
-  width: 15;
-  height: 15;
+  margin: 10px 0 0 10px;
+  width: 15px;
+  height: 15px;
   z-index: 2;
 }
 
-#light-5{
+#light-5, #light-5b{
   display: block;
   position: relative;
   background-image: radial-gradient(
@@ -122,11 +122,11 @@ body{
     gray 0%,
     black 50%);
   border: 1px inset black;
-  box-shadow: rgba(0, 0, 0, 0.2) 1 1;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px;
   border-radius: 50%;
-  margin: 5 5 0 5;
-  width: 10;
-  height: 10;
+  margin: 5px 5px 0 5px;
+  width: 10px;
+  height: 10px;
   z-index: 0;
 }
 
@@ -138,33 +138,33 @@ body{
     red 0%,
     darkred 50%);
   border: 1px inset black;
-  box-shadow: rgba(0, 0, 0, 0.2) 1 1;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px;
   border-radius: 50%;
   margin: 0;
-  width: 25;
-  height: 25;
+  width: 25px;
+  height: 25px;
   z-index: 0;
 }
 
 #light-7, #light-8{
   display: block;
   position: absolute;
-  top: 50;
+  top: 50px;
   background-image: radial-gradient(
     farthest-corner at 2px 2px,
     black 0%,
     gray 100%);
   border: 1px inset black;
-  box-shadow: rgba(0, 0, 0, 0.2) 1 1;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px;
   border-radius: 50%;
-  margin: 15 23;
-  width: 10;
-  height: 10;
+  margin: 15px 23px;
+  width: 10px;
+  height: 10px;
   z-index: 0;
 }
 
  #light-8{
-  margin: 15 36;
+  margin: 15px 36px;
  }
 
 #cf-spacer{
@@ -172,7 +172,7 @@ body{
   flex-direction: row;
   justify-content: center;
   width: 65%;
-  padding-bottom: 8;
+  padding-bottom: 8px;
   font-family: Impact, sans-serif;
   font-size: 1.35rem;
 }
@@ -180,7 +180,7 @@ body{
   text-align: right;
   font-family: Impact, sans-serif;
   font-size: 1.35rem;
-  padding-bottom: 8;
+  padding-bottom: 8px;
 }
 
 #pokemon-name{
@@ -193,14 +193,14 @@ body{
   display: flex;
   flex-direction: column;
   position: relative;
-  padding-top: 2;
+  padding-top: 2px;
 }
 
 #s1, #s2, #s3, #s4{
   background-color: black;
-  width: 30;
-  height: 3;
-  margin: 1;
+  width: 30px;
+  height: 3px;
+  margin: 1px;
 }
 
 #pokedex-topright{
@@ -208,10 +208,10 @@ body{
   flex-direction: row;
   position: absolute;
   overflow: hidden;
-  top: 50;
-  right: -50;
+  top: 50px;
+  right: -50px;
   width: 50%;
-  height: 50;
+  height: 50px;
   transform: skew(135deg,0deg);
   -ms-transform: skew(135deg,0deg);
   -webkit-transform: skew(135deg,0deg);
@@ -228,10 +228,10 @@ body{
   align-content: center;
   text-align: center;
   justify-content: center;
-  margin: 110 auto 0;
+  margin: 110px auto 0;
   width: 50%;
-  height: 2;
-  min-width: 280;
+  height: 2px;
+  min-width: 280px;
   max-width: 320px;
   z-index: -3;
   border-radius: 10px 10px 0 0;
@@ -246,10 +246,10 @@ body{
   text-align: center;
   justify-content: center;
   margin: auto;
-  padding: 3 0 0 0;
+  padding: 3px 0 0 0;
   width: 50%;
-  height: 180;
-  min-width: 280;
+  height: 180px;
+  min-width: 280px;
   max-width: 320px;
   z-index: -3;
   box-shadow: rgba(0, 0, 0, 0.5) 5px 5px;
@@ -276,8 +276,8 @@ body{
   justify-content: center;
   margin: auto;
   width: 50%;
-  height: 30;
-  min-width: 280;
+  height: 30px;
+  min-width: 280px;
   max-width: 320px;
   z-index: -3;
   border-radius: 0 0 10px 50px;
@@ -292,9 +292,8 @@ body{
   min-height: 187px;
   min-width: 280px;
   max-width: 480px;
-  align-content: top;
   justify-content: center;
-  margin: 10 auto 160;
+  margin: 10px auto 160px;
 }
 
 #weight, #height, #hp, #attack, #defense, #special-attack, #special-defense, #speed{
@@ -309,8 +308,8 @@ body{
   font-family: Trebuchet, sans-serif;
   font-size: 1.2rem;
   color: #ccc;
-  margin: 3;
-  padding: 8;
+  margin: 3px;
+  padding: 8px;
   border-radius: 20px 20px 20px 20px;
   box-shadow: rgb(0, 0, 0) 1px 1px 5px 0px inset;
   text-shadow: 2px 1px black;
@@ -323,7 +322,7 @@ body{
   min-width: 300px;
   align-content: center;
   justify-content: center;
-  margin: 5 auto;
+  margin: 5px auto;
   color: #fff;
   text-shadow: 1px 2px 0 #000;
 }
@@ -333,8 +332,8 @@ body{
   flex-direction: row;
   font-family: Trebuchet, sans-serif;
   font-size: 1.2rem;
-  margin: 3;
-  padding: 8;
+  margin: 3px;
+  padding: 8px;
   min-width: 100px;
   text-align: center;
   justify-content: center;
@@ -344,10 +343,10 @@ body{
 
 input, input:focus {
   position: relative;
-  bottom: 8;
+  bottom: 8px;
   width: 45%;
   min-width: 70px;
-  height: 80;
+  height: 80px;
   font-family: Impact, sans-serif;
   color: #086619;
   font-size: 1.2rem;
@@ -360,17 +359,17 @@ input, input:focus {
 #search-button{
   display: block;
   position: absolute;
-  right: 45;
-  bottom: 89;
+  right: 45px;
+  bottom: 89px;
   background-color: black;
-  width: 50;
-  height: 37;
+  width: 50px;
+  height: 37px;
   border: none;
   color: yellow;
   font-family: Impact, sans-serif;
   font-size: 1.6rem;
-  cursor: hand;
-  margin: -3;
+  cursor: pointer;
+  margin: -3px;
   z-index: 100;
 }
 
@@ -399,14 +398,14 @@ img{
 #lgBtn{
   display: block;
   position: absolute;
-  top: 2;
+  top: 2px;
   border: 3px solid #222;
   background-color: black;
   box-shadow: rgba(0, 0, 0, 0.5) 2px 2px;
   border-radius: 50%;
-  margin: 0 0 0 10;
-  width: 45;
-  height: 45;
+  margin: 0 0 0 10px;
+  width: 45px;
+  height: 45px;
   z-index: 0;
 }
 
@@ -422,7 +421,7 @@ img{
 #redBar{
   display: block;
   position: relative;
-  bottom: 16;
+  bottom: 16px;
   border: 1px solid black;
   background-image: radial-gradient(
     farthest-corner at 0px 0px,
@@ -431,7 +430,7 @@ img{
   border-radius: 4px 4px 4px 4px;
   width: 30%;
   min-width: 45px;
-  height: 8;
+  height: 8px;
   z-index: 0;
 }
 
@@ -439,7 +438,7 @@ img{
   display: block;
   position: relative;
   left: 32%;
-  bottom: 24;
+  bottom: 24px;
   border: 1px solid black;
   background-image: radial-gradient(
     farthest-corner at 0px 0px,
@@ -448,18 +447,18 @@ img{
   border-radius: 4px 4px 4px 4px;
   width: 30%;
   min-width: 45px;
-  height: 8;
+  height: 8px;
   z-index: 0;
 }
 
 #dPadH{
   display: block;
   position: absolute;
-  bottom: 83;
-  right: 12;
+  bottom: 83px;
+  right: 12px;
   background-color: black;
-  width: 110;
-  height: 40;
+  width: 110px;
+  height: 40px;
   z-index: 1;
   box-shadow: rgba(0, 0, 0, 0.5) 5px 5px;
   border: 3px inset black;
@@ -469,11 +468,11 @@ img{
 #dPadVtop{
   display: block;
   position: absolute;
-  bottom: 34;
-  right: 33;
+  bottom: 34px;
+  right: 33px;
   background-color: black;
-  width: 40;
-  height: 38;
+  width: 40px;
+  height: 38px;
   z-index: 1;
   box-shadow: rgba(0, 0, 0, 0.5) 5px 5px;
   border: 3px inset black;
@@ -483,11 +482,11 @@ img{
 #dPadVbtm{
   display: block;
   position: absolute;
-  bottom: -38;
-  right: 33;
+  bottom: -38px;
+  right: 33px;
   background-color: black;
-  width: 40;
-  height: 38;
+  width: 40px;
+  height: 38px;
   z-index: 1;
   box-shadow: rgba(0, 0, 0, 0.5) 5px 5px;
   border: 3px inset black;
@@ -499,8 +498,8 @@ img{
   font-size: .65rem;
   font-weight: 800;
   float: right;
-  margin-right: 50;
-  margin-top: -10;
+  margin-right: 50px;
+  margin-top: -10px;
 }
 
 footer{
